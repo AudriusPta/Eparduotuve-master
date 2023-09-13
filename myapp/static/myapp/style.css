@@ -1,0 +1,20 @@
+.card-text {
+    color: green;
+    font-weight: 800;
+
+}
+
+.car-title {
+    font-weight: 900;
+}
+
+
+
+
+.center-contenttt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}

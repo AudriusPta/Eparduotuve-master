@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+
+
+
+{% block body %}
+<center>
+<li><strong>Prekiu:</strong> {{ num_products }}</li>
+<li><strong>Prekiu kategoriju:</strong> {{ num_category }}</li>
+<li><strong>Uzsakymai:</strong> {{ num_order }}</li>
+<li><strong>Atsiliepimai:</strong> {{ num_review }}</li>
+{{ bars|safe }}
+{% endblock %}
